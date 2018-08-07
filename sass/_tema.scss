@@ -1,0 +1,42 @@
+.tema{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    .text{
+     width: 50%;
+     height: 100%;
+     float: left;
+     padding: 80px;
+
+     h2{    font-family: 'Libel';
+         &.title{
+
+            font-size: 5.5rem;
+            text-decoration: underline;
+            text-decoration-color: #9F1318;
+         }
+     }
+     p{
+         font-size: 1.8rem;
+     }
+     a{
+        padding: 16px 20px;
+        background-color: #59863C;
+        color: white;
+        display: block;
+        max-width: 190px;
+        margin-top: 19px;
+        font-size: 1.6rem;
+        text-align: center;
+        font-family: 'Lato';
+        font-weight: 400;
+     }
+    }
+    .image{
+        width: 50%;
+        height: 100%;
+        float: right;
+        background-image: url(../img/img--tema.png);
+        background-size: cover;
+    }
+}

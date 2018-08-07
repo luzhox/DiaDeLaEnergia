@@ -11,4 +11,16 @@
     font-style: normal;
   }
 
+
+  @font-face{font-family:'grotesk';src:url('fonts/grotesk-webfont.woff2') format('woff2'),
+    url('fonts/grotesk-webfont.woff') format('woff');font-weight:normal;font-style:normal;}
  
+
+    @font-face {
+      font-family: 'Libel';
+      src: url('fonts/libel-suit-rg-webfont.woff2') format('woff2'),
+           url('fonts/libel-suit-rg-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  
+  }
