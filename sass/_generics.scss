@@ -1,0 +1,67 @@
+@import 'fonts';
+@import 'variables';
+@import 'grid';
+@import 'icons';
+%boxsizing{
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*{ @extend %boxsizing;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', 'sans-serif';
+    outline: 0;
+    box-shadow: none;
+}
+
+body{background-color:#eeeef2;}
+section {
+  padding: 5vh 0;
+  background-color: #eeeef2;
+}
+a{ text-decoration: none; color: $primary-color-text;}
+li{list-style:none;}
+
+
+// generic style with class
+.center{text-align: center;}
+.no-padding {
+  padding: 0 !important;
+}
+
+
+
+
+@media only screen and (max-width: 425px) {
+  .hide-on-small-only, .hide-on-small-and-down {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 426px) {
+  .hide-on-med-and-up {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 1049px) {
+  .hide-on-med-and-down {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  .hide-on-large-only {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 426px )and (max-width: 768px) {
+  .hide-on-med-only {
+    display: none !important;
+  }
+}
+
+
+  
+  
+  
+
