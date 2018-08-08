@@ -1,0 +1,22 @@
+.hero{
+    min-height: 50px;
+    width: 100%;
+
+    .image{
+        background-image: url(../img/background-dde312312.jpg);
+        min-height: 410px;
+        background-size: cover;
+        background-position: bottom;
+        padding-top: 80px;
+        .textohero{
+            h1{color:white; font-size: 52px; font-family: 'Libel'; font-weight: normal;}
+            hr{}
+            h2{color:#E3E3E3; font-family: 'Akrobat'; font-weight: normal; font-size: 4rem;}
+        }
+    }
+    .bar{
+        height: 138px;
+        width: 100%;
+        background-color: #2F2F2F;
+    }
+}
