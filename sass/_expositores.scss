@@ -1,0 +1,54 @@
+.expositores{
+
+    background-color: #232323;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    h2{    font-family: 'Libel'; font-weight: normal;
+        &.title{
+            color:white;
+           font-size: 5.5rem;
+           text-decoration: underline;
+           text-decoration-color: #9F1318;
+           text-align: center;
+           padding-bottom: 20px;
+        }
+    }
+    .expositores-slider{
+
+        .expositor{
+            min-height: 302px;
+            background-color:white;
+            border-radius:10px;
+            overflow: hidden;
+            .imagen{
+                height: 218px;
+
+                background-image: url(
+                    ../img/expositores/cayetana.jpg
+                );
+                background-size: cover;
+
+            }
+            .text{
+                display: flex;
+                height: 124px;
+                align-items: center;
+                flex-flow: column;
+                justify-content: center;
+            h3{font-size: 20px;
+                color:#4C4C4C;
+                font-family: 'Lato';
+                font-weight: 900;
+               
+        }
+            p{
+                font-size: 14px;
+                color:#4C4C4C;
+                font-family: 'Lato';
+                font-weight: 400;
+            }
+        }
+    }
+    }
+}
