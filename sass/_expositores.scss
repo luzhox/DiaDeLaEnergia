@@ -4,14 +4,50 @@
     padding-top: 80px;
     padding-bottom: 80px;
 
+    .owl-prev{
+        position: absolute;
+        left: -77px;
+        top: 120px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%!important;
+        color: #58853c !important;
+        background-color: #58853c!important;
+        background-image: url(../img/back.png) !important;
+        background-position: center!important;
+        background-repeat: no-repeat!important;
+        background-size: 26%!important;
+    }
+
+    .owl-next{
+        position: absolute;
+        right: -77px;
+        top: 120px;
+        width: 60px;
+        height: 60px;
+        border-radius: 50%!important;
+        color: #58853c !important;
+        background-color: #58853c!important;
+        background-image: url(../img/next.png) !important;
+        background-position: center!important;
+        background-repeat: no-repeat!important;
+        background-size: 26%!important;
+
+
+    }
+
     h2{    font-family: 'Libel'; font-weight: normal;
         &.title{
             color:white;
-           font-size: 5.5rem;
+           font-size: 4.5rem;
            text-decoration: underline;
            text-decoration-color: #9F1318;
            text-align: center;
            padding-bottom: 20px;
+           @media only screen and (min-width:700px){
+            font-size: 5.5rem;
+
+        }
         }
     }
     .expositores-slider{

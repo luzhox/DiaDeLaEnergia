@@ -4,25 +4,47 @@
     background-color: #fff;
     margin-top: 40px;
     margin-bottom: 40px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
 
 .text{
     height: 100%;
+
+    @media only screen and(min-width:700px)
+{
     padding-top: 58px;
 
+}
     h2{
         font-family: 'grotesk';
-    font-size: 43px;
-    line-height: 43px;
-    span{
-        font-family: 'grotesk';
+    font-size: 33px;
+    line-height: 33px;
+    text-align: center;
+    @media only screen and (min-width:700px){
         font-size: 43px;
         line-height: 43px;
+        text-align: left;
+
+    }
+    span{
+        font-family: 'grotesk';
+      
         color:#7bb662;
         display: block;
     }
     }
 }
-
+img{
+    margin: 30px auto;
+    display: block;
+    margin-bottom: 50px;
+    @media only screen and (min-width:700px){
+        margin: 0;
+        margin-top: 10px;
+    }
+}
   
 }
 .videoDDE{
@@ -34,5 +56,8 @@
         width: 100%;
         box-shadow: 1px 0px 40px #363636;
     }
+
+
+ 
 }
 

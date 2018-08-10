@@ -3,13 +3,24 @@
     width: 100%;
 
     .image{
+
+        
         background-image: url(../img/background-dde312312.jpg);
         min-height: 410px;
         background-size: cover;
         background-position: bottom;
         padding-top: 80px;
         .textohero{
-            h1{color:white; font-size: 52px; font-family: 'Libel'; font-weight: normal;}
+            h1{color:white; 
+                
+                font-size: 4.2rem; font-family: 'Libel'; font-weight: normal;
+                line-height: 4.4rem;
+                @media only screen and (min-width:700px){
+                    font-size: 5.2rem;
+    
+                }
+            
+            }
             hr{}
             h2{color:#E3E3E3; font-family: 'Akrobat'; font-weight: normal; font-size: 4rem;}
         }
@@ -18,5 +29,20 @@
         height: 138px;
         width: 100%;
         background-color: #2F2F2F;
+        .text{
+
+
+            color: white;
+    font-size: 2.6rem;
+    padding-top: 43px;
+    padding-left: 30px;
+        }
+        span{    color: white;
+            display: block;
+            font-size: 1.2rem;}
+        img{
+            height: 120px;
+            padding-top: 10px;
+        }
     }
 }
