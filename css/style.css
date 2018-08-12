@@ -1057,7 +1057,12 @@ li {
           .tema .text h2.title {
             font-size: 5.5rem; } }
     .tema .text p {
-      font-size: 1.8rem; }
+      font-size: 1.5rem;
+      font-weight: 2.3rem; }
+      @media only screen and (min-width: 700px) {
+        .tema .text p {
+          font-size: 1.8rem;
+          font-weight: 2.6rem; } }
     .tema .text a {
       padding: 16px 20px;
       background-color: #59863C;
@@ -1123,7 +1128,7 @@ li {
     font-weight: normal; }
     .expositores h2.title {
       color: white;
-      font-size: 4.5rem;
+      font-size: 3.5rem;
       text-decoration: underline;
       text-decoration-color: #9F1318;
       text-align: center;
@@ -1135,7 +1140,10 @@ li {
     min-height: 302px;
     background-color: white;
     border-radius: 10px;
-    overflow: hidden; }
+    overflow: hidden;
+    max-width: 280px;
+    margin: 0 auto;
+    margin-bottom: 20px; }
     .expositores .expositores-slider .expositor .imagen {
       height: 218px;
       background-image: url(../img/expositores/cayetana.jpg);
@@ -1186,12 +1194,15 @@ li {
         padding: 35px;
         float: left; } }
     .contactanos .text .dates {
-      font-size: 1.6rem; }
+      font-size: 1.5rem; }
+      @media only screen and (min-width: 700px) {
+        .contactanos .text .dates {
+          font-size: 1.6rem; } }
     .contactanos .text h2 {
       font-family: 'Libel';
       font-weight: normal; }
       .contactanos .text h2.title {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
         text-decoration: underline;
         text-decoration-color: #9F1318; }
         @media only screen and (min-width: 700px) {

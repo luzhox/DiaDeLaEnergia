@@ -32,13 +32,16 @@
         float: left;
      }
      .dates{
-         font-size: 1.6rem;
+         font-size: 1.5rem;
+         @media only screen and (min-width:700px){
+            font-size: 1.6rem;
+         }
      }
 
      h2{    font-family: 'Libel'; font-weight: normal;
          &.title{
 
-            font-size: 4.5rem;
+            font-size: 3.5rem;
             text-decoration: underline;
             text-decoration-color: #9F1318;
 
