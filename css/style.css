@@ -1262,6 +1262,8 @@ li {
         .contactanos .text .btn {
           margin-right: 0px;
           margin-left: 0px; } }
+    .contactanos .text .siguenos {
+      max-width: 114px; }
     .contactanos .text .redes [class^="icon-"], .contactanos .text .redes [class*=" icon-"] {
       /* use !important to prevent issues with browser extensions that change fonts */
       font-family: 'icomoon' !important;
@@ -1272,6 +1274,9 @@ li {
       text-transform: none;
       line-height: 1;
       font-size: 4rem;
+      margin: 0px;
+      padding: 0px;
+      max-width: 50px;
       /* Better Font Rendering =========== */
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale; }
