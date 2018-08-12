@@ -2,25 +2,28 @@
   @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900');
   @font-face {
     font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot');
     src:  url('fonts/icomoon.eot#iefix') format('embedded-opentype'),
       url('fonts/icomoon.ttf') format('truetype'),
       url('fonts/icomoon.woff') format('woff'),
       url('fonts/icomoon.svg#icomoon2') format('svg');
-    font-weight: normal;
-    font-style: normal;
+
   }
 
 
-  @font-face{font-family:'grotesk';src:url('fonts/grotesk-webfont.woff2') format('woff2'),
-    url('fonts/grotesk-webfont.woff') format('woff');font-weight:normal;font-style:normal;}
+  @font-face{font-family:'grotesk';
+    src:
+     url('fonts/grotesk-webfont.woff2') format('woff2'),
+     url('fonts/grotesk-webfont.woff') format('woff');
+     
+    }
  
 
     @font-face {
       font-family: 'Libel';
       src: url('fonts/libel-suit-rg-webfont.woff2') format('woff2'),
            url('fonts/libel-suit-rg-webfont.woff') format('woff');
-      font-weight: normal;
-      font-style: normal;
+      
   
   }
 
@@ -28,7 +31,6 @@
     font-family: 'Akrobat';
     src: url('fonts/akrobat-regular-webfont.woff2') format('woff2'),
          url('fonts/akrobat-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+   
 
 }
