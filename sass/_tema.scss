@@ -48,7 +48,7 @@
         background-color: #59863C;
         color: white;
         display: block;
-        max-width: 190px;
+        max-width: 206px;
         margin-top: 19px;
         font-size: 1.6rem;
         text-align: center;
@@ -56,6 +56,9 @@
         font-weight: 400;
         margin-right: auto;
         margin-left: auto;
+        &:hover{
+            background-color: #447027;
+        }
         @media screen and (min-width:700px) {
         margin-right: 0;
         margin-left: 0;

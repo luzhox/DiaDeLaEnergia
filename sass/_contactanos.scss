@@ -10,12 +10,17 @@
         font-size: 1.6rem;
     }
     .logodde{
+        a{
         color:#A3CE87;
         font-size: 2.3rem;
         font-family: 'Libel';
         display: block;
         margin-top: 10px;
-    }
+        &:hover{
+            color:#59863C;
+
+        }
+    }}
     .text{
      width: 100%;
      height: 100%;
@@ -59,6 +64,15 @@
         font-weight: 400;
         margin-left: auto;
         margin-right: auto;
+        display:flex;
+        align-items: center;
+    justify-content: center;
+    span{
+        padding-left: 10px;
+    }
+        &:hover{
+            background-color: #447027;
+        }
         @media only screen and (min-width:700px){
             margin-right: 0px;
             margin-left:0px;

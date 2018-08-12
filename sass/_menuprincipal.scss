@@ -1,21 +1,82 @@
 .menu-principal{
     width: 100%;
-min-height: 40px;
+    min-height: 40px;
+.menu{
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+    text-align: right;
+    padding: 20px;
+    display: block;
+    cursor: pointer;
+    font-weight: 900; 
+
+    @media only screen and (min-width:700px){
+        display: none;
+
+    }
+    button{
+        font-size: 1.6rem;
+        border:none;
+        background-color: transparent;
+        i{
+            padding-left: 10px;
+        }
+    }
+}
+.container{
+    @media only screen and (max-width:400px){
+        width: 100%;
+
+    }
+
+
     ul{ width: 100%;
         height: 100%;
+        display: none;
+        @media only screen and (max-width:400px){
+            margin: 0;
+
+        }
+        @media only screen and (min-width:700px){
+            display: block;
+    
+        }
         li{ 
             text-align: center;
             height: 100%;
-            a{  padding: 10px;
-                font-size: 1.6rem;
-                height: 100%;
-                display: block;
+            border-bottom: 1px solid rgb(224, 224, 224);
+            @media only screen and (max-width:400px){
+                padding: 0;
 
-                [class^="icon-"], [class*=" icon-"] {
+            }
+            @media only screen and (min-width:700px){
+                border: none;
+            }
+            a{  
+                padding: 20px;
+
+                
+              
+                font-size: 1.5rem;
+                height: 100%;
+                cursor: pointer;
+                display: block;
+                &:hover{ background-color: rgb(233, 233, 233);}
+                @media only screen and (min-width:700px){
                     font-size: 1.7rem;
+                    padding: 10px;
+
+                }
+
+                @media only screen and (min-width:1170px){
+                    font-size: 1.9rem;
+
+                }
+                [class^="icon-"], [class*=" icon-"] {
+                    font-size: 2rem;
                     padding-right: 10px;
                   }
             }
         }
     }
-}
+}}

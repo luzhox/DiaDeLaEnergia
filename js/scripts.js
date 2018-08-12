@@ -1,6 +1,8 @@
 $( document ).ready(function() {
 
-
+$('.menu').click(function(){
+    $('.menucontainer').slideToggle('fast') 
+})
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
