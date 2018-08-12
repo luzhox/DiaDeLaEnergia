@@ -4,25 +4,54 @@
 
     .image{
 
-        
-        background-image: url(../img/background-dde312312.jpg);
-        min-height: 410px;
+        background-image: url(../img/bg-mobile.jpg);
+        min-height: 80px;
         background-size: cover;
-        background-position: bottom;
-        padding-top: 80px;
+        background-position: right;
+        padding-top: 60px;
+        padding-bottom: 70px;
+
+        @media only screen and (min-width:700px){
+            background-image: url(../img/background-dde312312.jpg);
+            min-height: 410px;
+            background-size: cover;
+            background-position: bottom right;
+            padding-top: 100px;
+            padding-bottom: 0px;
+        }
+       
         .textohero{
-            h1{color:white; 
-                
-                font-size: 4.2rem; font-family: 'Libel'; font-weight: normal;
+            h1{color: white;
+                font-size: 3.2rem;
+                font-family: 'Libel';
+                font-weight: normal;
                 line-height: 4.4rem;
+                text-transform: uppercase;
+                text-align: center;
+            
                 @media only screen and (min-width:700px){
                     font-size: 5.2rem;
-                    line-height: 5.5rem;
+                    line-height: 6.2rem;
                 }
             
             }
-            hr{}
-            h2{color:#E3E3E3; font-family: 'Akrobat'; font-weight: normal; font-size: 4rem;}
+            hr{    background-color: #618848;
+                border: 2px solid #618848;
+                margin: 6px auto;
+
+                @media only screen and (min-width:700px){
+                    margin: 15px auto;
+
+
+                }
+            }
+            h2{color:#E3E3E3; font-family: 'Akrobat'; font-weight: normal; font-size: 2rem;
+                text-align: center;;
+            @media only screen and (min-width:700px){
+                text-align: left;
+                font-size: 4rem;
+            }
+            }
         }
     }
     .bar{

@@ -857,7 +857,7 @@ li {
             padding: 10px; } }
         @media only screen and (min-width: 1170px) {
           .header .menu-principal .container ul li a {
-            font-size: 1.9rem; } }
+            font-size: 1.8rem; } }
         .header .menu-principal .container ul li a [class^="icon-"], .header .menu-principal .container ul li a [class*=" icon-"] {
           font-size: 2rem;
           padding-right: 10px; }
@@ -867,11 +867,15 @@ li {
   background-color: white;
   border-bottom: 1px solid lightgray; }
   .header .logos .logodde img {
-    height: 80px;
+    height: 64px;
     width: auto;
     display: block;
     float: left;
-    margin-top: 5px; }
+    margin-top: 11px; }
+    @media only screen and (min-width: 700px) {
+      .header .logos .logodde img {
+        height: 80px;
+        margin-top: 5px; } }
   .header .logos .logocongreso {
     max-width: 100px;
     height: 90px;
@@ -887,26 +891,49 @@ li {
   min-height: 50px;
   width: 100%; }
   .hero .image {
-    background-image: url(../img/background-dde312312.jpg);
-    min-height: 410px;
+    background-image: url(../img/bg-mobile.jpg);
+    min-height: 80px;
     background-size: cover;
-    background-position: bottom;
-    padding-top: 80px; }
+    background-position: right;
+    padding-top: 60px;
+    padding-bottom: 70px; }
+    @media only screen and (min-width: 700px) {
+      .hero .image {
+        background-image: url(../img/background-dde312312.jpg);
+        min-height: 410px;
+        background-size: cover;
+        background-position: bottom right;
+        padding-top: 100px;
+        padding-bottom: 0px; } }
     .hero .image .textohero h1 {
       color: white;
-      font-size: 4.2rem;
+      font-size: 3.2rem;
       font-family: 'Libel';
       font-weight: normal;
-      line-height: 4.4rem; }
+      line-height: 4.4rem;
+      text-transform: uppercase;
+      text-align: center; }
       @media only screen and (min-width: 700px) {
         .hero .image .textohero h1 {
           font-size: 5.2rem;
-          line-height: 5.5rem; } }
+          line-height: 6.2rem; } }
+    .hero .image .textohero hr {
+      background-color: #618848;
+      border: 2px solid #618848;
+      margin: 6px auto; }
+      @media only screen and (min-width: 700px) {
+        .hero .image .textohero hr {
+          margin: 15px auto; } }
     .hero .image .textohero h2 {
       color: #E3E3E3;
       font-family: 'Akrobat';
       font-weight: normal;
-      font-size: 4rem; }
+      font-size: 2rem;
+      text-align: center; }
+      @media only screen and (min-width: 700px) {
+        .hero .image .textohero h2 {
+          text-align: left;
+          font-size: 4rem; } }
   .hero .bar {
     height: 138px;
     width: 100%;

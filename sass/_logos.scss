@@ -8,11 +8,15 @@
 .logodde{
 
     img{
-        height: 80px;
+        height: 64px;
         width: auto;
         display: block;
         float: left;
-        margin-top: 5px;
+        margin-top: 11px;
+        @media only screen and (min-width:700px){
+            height: 80px;
+            margin-top: 5px;
+        }
     }
 }
     .logocongreso{
