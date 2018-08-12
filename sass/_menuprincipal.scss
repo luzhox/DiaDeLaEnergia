@@ -1,6 +1,12 @@
 .menu-principal{
     width: 100%;
     min-height: 40px;
+    @keyframes entrada {
+        from {opacity: 0;
+            top: 23px;}
+        to {opacity: 1;
+            top: 43px;}
+    }
 .menu{
     width: 100%;
     background-color: rgb(216, 216, 216);
@@ -120,12 +126,7 @@
                 }
             }
 
-            @keyframes entrada {
-                from {opacity: 0;
-                    top: 23px;}
-                to {opacity: 1;
-                    top: 43px;}
-            }
+         
         }
     }
 }}

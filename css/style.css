@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
 @font-face {
   font-family: 'icomoon';
-  src: url("fonts/icomoon.eot");
   src: url("fonts/icomoon.eot#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf") format("truetype"), url("fonts/icomoon.woff") format("woff"), url("fonts/icomoon.svg#icomoon2") format("svg");
   font-weight: normal;
   font-style: normal; }
@@ -702,12 +701,6 @@
     margin-left: auto;
     left: auto;
     right: auto; } }
-@font-face {
-  font-family: 'icomoon';
-  src: url("fonts/icomoon.eot?7fmbk3");
-  src: url("fonts/icomoon.eot?7fmbk3#iefix") format("embedded-opentype"), url("fonts/icomoon.ttf?7fmbk3") format("truetype"), url("fonts/icomoon.woff?7fmbk3") format("woff"), url("fonts/icomoon.svg?7fmbk3#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'icomoon' !important;
@@ -806,6 +799,13 @@ li {
 .header .menu-principal {
   width: 100%;
   min-height: 40px; }
+@keyframes entrada {
+  from {
+    opacity: 0;
+    top: 23px; }
+  to {
+    opacity: 1;
+    top: 43px; } }
   .header .menu-principal .menu {
     width: 100%;
     background-color: #d8d8d8;
@@ -896,13 +896,6 @@ li {
           @media only screen and (min-width: 700px) {
             .header .menu-principal .container ul li ul.sub-menu li {
               background: white; } }
-@keyframes entrada {
-  from {
-    opacity: 0;
-    top: 23px; }
-  to {
-    opacity: 1;
-    top: 43px; } }
 .header .logos {
   width: 100%;
   height: 90px;
