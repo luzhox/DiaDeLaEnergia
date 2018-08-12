@@ -923,6 +923,32 @@ li {
     .hero .bar img {
       height: 120px;
       padding-top: 10px; }
+    .hero .bar .containercontador {
+      margin-left: 41.6666666667%;
+      display: none; }
+      @media only screen and (min-width: 700px) {
+        .hero .bar .containercontador {
+          display: block; } }
+      .hero .bar .containercontador .contador {
+        float: right;
+        font-size: 45px;
+        color: white;
+        padding: 30px;
+        padding-top: 9%;
+        padding-bottom: 0px;
+        padding-right: 0px;
+        padding-left: 0px; }
+      .hero .bar .containercontador .dias {
+        display: block;
+        width: 100%;
+        font-size: 20px;
+        text-align: center;
+        color: white; }
+        .hero .bar .containercontador .dias span {
+          font-size: 20px;
+          display: inline-block;
+          margin-left: 16px;
+          font-weight: 300; }
 
 .about-quijandria {
   min-height: 300px;
@@ -1155,7 +1181,7 @@ li {
       margin-top: 19px;
       font-size: 1.6rem;
       text-align: center;
-      font-family: 'Lato';
+      font-family: 'Akrobat';
       font-weight: 400;
       margin-left: auto;
       margin-right: auto;
@@ -1163,7 +1189,9 @@ li {
       align-items: center;
       justify-content: center; }
       .contactanos .text .btn span {
-        padding-left: 10px; }
+        padding-left: 10px;
+        font-family: 'Akrobat';
+        font-size: 2rem; }
       .contactanos .text .btn:hover {
         background-color: #447027; }
       @media only screen and (min-width: 700px) {

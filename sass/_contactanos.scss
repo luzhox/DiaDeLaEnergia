@@ -60,15 +60,18 @@
         margin-top: 19px;
         font-size: 1.6rem;
         text-align: center;
-        font-family: 'Lato';
+        font-family: 'Akrobat';
         font-weight: 400;
         margin-left: auto;
         margin-right: auto;
         display:flex;
         align-items: center;
     justify-content: center;
+
     span{
         padding-left: 10px;
+        font-family: 'Akrobat';
+        font-size:2rem;
     }
         &:hover{
             background-color: #447027;

@@ -44,5 +44,40 @@
             height: 120px;
             padding-top: 10px;
         }
+        .containercontador{
+            margin-left: 41.6666666667%;
+            display: none;
+
+            @media only screen and (min-width:700px){
+                display: block;
+            }
+        
+
+        .contador{
+            float: right;
+            font-size: 45px;
+            color: white;
+            padding: 30px;
+            padding-top: 9%;
+            padding-bottom: 0px;
+            padding-right: 0px;
+            padding-left: 0px;
+        }
+        .dias{
+            display: block;
+            width: 100%;
+            font-size: 20px;
+            text-align: center;
+            color: white;
+            span{
+
+                font-size: 20px;
+                display: inline-block;
+                margin-left: 16px;
+                font-weight: 300;
+            }
+        }
+    }
+
     }
 }

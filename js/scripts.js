@@ -3,6 +3,13 @@ $( document ).ready(function() {
 $('.menu').click(function(){
     $('.menucontainer').slideToggle('fast') 
 })
+  $(".contador")
+  .countdown("2018/10/25", function(event) {
+    $(this).text(
+      event.strftime('%D:%H:%M:%S')
+    );
+  });
+
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:10,
