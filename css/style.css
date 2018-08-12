@@ -839,6 +839,7 @@ li {
     .header .menu-principal .container ul li {
       text-align: center;
       height: 100%;
+      position: relative;
       border-bottom: 1px solid #e0e0e0; }
       @media only screen and (max-width: 400px) {
         .header .menu-principal .container ul li {
@@ -866,6 +867,42 @@ li {
           padding-right: 10px; }
         .header .menu-principal .container ul li a .icon-chevron-bottom {
           font-size: 1rem; }
+      .header .menu-principal .container ul li ul.sub-menu {
+        display: none;
+        position: relative;
+        top: 0px;
+        opacity: 1; }
+        @media only screen and (min-width: 700px) {
+          .header .menu-principal .container ul li ul.sub-menu {
+            display: none;
+            position: absolute;
+            display: none;
+            top: 43px;
+            background-color: white;
+            width: 100%;
+            opacity: 0; } }
+        .header .menu-principal .container ul li ul.sub-menu.active {
+          display: block; }
+          @media only screen and (min-width: 700px) {
+            .header .menu-principal .container ul li ul.sub-menu.active {
+              display: block;
+              opacity: 1;
+              animation-name: entrada;
+              animation-timing-function: ease-in-out;
+              animation-duration: .5s; } }
+        .header .menu-principal .container ul li ul.sub-menu li {
+          background: #f3f3f3;
+          position: relative; }
+          @media only screen and (min-width: 700px) {
+            .header .menu-principal .container ul li ul.sub-menu li {
+              background: white; } }
+@keyframes entrada {
+  from {
+    opacity: 0;
+    top: 23px; }
+  to {
+    opacity: 1;
+    top: 43px; } }
 .header .logos {
   width: 100%;
   height: 90px;

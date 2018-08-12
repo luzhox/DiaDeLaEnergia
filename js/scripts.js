@@ -8,6 +8,12 @@ $('.menu').click(function(){
     $(this).html(
       event.strftime('%D'+'<h5>:</h5>'+'%H'+'<h5>:</h5>'+'%M'+'<h5>:</h5>'+'%S')
     );
+
+    $('.congresos').click(function(){
+
+        $('.sub-menu').toggleClass('active')
+
+    })
   });
 
     $('.owl-carousel').owlCarousel({
