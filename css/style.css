@@ -754,6 +754,9 @@
 .icon-play:before {
   content: "\e90a"; }
 
+.icon-chevron-bottom:before {
+  content: "\e914"; }
+
 .icon-menu-button:before {
   content: "\e902"; }
 
@@ -861,6 +864,8 @@ li {
         .header .menu-principal .container ul li a [class^="icon-"], .header .menu-principal .container ul li a [class*=" icon-"] {
           font-size: 2rem;
           padding-right: 10px; }
+        .header .menu-principal .container ul li a .icon-chevron-bottom {
+          font-size: 1rem; }
 .header .logos {
   width: 100%;
   height: 90px;
@@ -957,25 +962,43 @@ li {
         .hero .bar .containercontador {
           display: block; } }
       .hero .bar .containercontador .contador {
-        float: right;
-        font-size: 45px;
+        font-size: 62px;
         color: white;
         padding: 30px;
-        padding-top: 9%;
+        padding-top: 21px;
         padding-bottom: 0px;
         padding-right: 0px;
-        padding-left: 0px; }
+        padding-left: 0px;
+        font-family: 'Libel';
+        font-weight: normal;
+        text-align: center;
+        height: 90px; }
+        .hero .bar .containercontador .contador h5 {
+          display: inline;
+          color: #A3CE87; }
       .hero .bar .containercontador .dias {
         display: block;
         width: 100%;
-        font-size: 20px;
+        font-size: 41px;
+        padding: 0px;
         text-align: center;
-        color: white; }
+        color: white;
+        font-family: 'Akrobat';
+        height: 30px;
+        margin: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        margin-top: 4px; }
         .hero .bar .containercontador .dias span {
           font-size: 20px;
-          display: inline-block;
-          margin-left: 16px;
-          font-weight: 300; }
+          margin-left: 28px;
+          font-weight: 100;
+          font-family: 'Akrobat';
+          padding: 0px;
+          margin-top: 0px;
+          float: left;
+          text-align: center; }
 
 .about-quijandria {
   min-height: 300px;

@@ -5,8 +5,8 @@ $('.menu').click(function(){
 })
   $(".contador")
   .countdown("2018/10/25", function(event) {
-    $(this).text(
-      event.strftime('%D:%H:%M:%S')
+    $(this).html(
+      event.strftime('%D'+'<h5>:</h5>'+'%H'+'<h5>:</h5>'+'%M'+'<h5>:</h5>'+'%S')
     );
   });
 

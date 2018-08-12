@@ -83,27 +83,46 @@
         
 
         .contador{
-            float: right;
-            font-size: 45px;
+            font-size: 62px;
             color: white;
             padding: 30px;
-            padding-top: 9%;
+            padding-top: 21px;
             padding-bottom: 0px;
             padding-right: 0px;
             padding-left: 0px;
+            font-family: 'Libel';
+            font-weight: normal;
+            text-align: center;
+            height: 90px;
+            h5{
+                display: inline;
+                color:#A3CE87;
+            }
         }
         .dias{
             display: block;
             width: 100%;
-            font-size: 20px;
+            font-size: 41px;
+            padding: 0px;
             text-align: center;
             color: white;
+            font-family: 'Akrobat';
+            height: 30px;
+            margin: 0px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            margin-top: 4px;
             span{
 
                 font-size: 20px;
-                display: inline-block;
-                margin-left: 16px;
-                font-weight: 300;
+    margin-left: 28px;
+    font-weight: 100;
+    font-family: 'Akrobat';
+    padding: 0px;
+    margin-top: 0px;
+    float: left;
+    text-align: center;
             }
         }
     }
