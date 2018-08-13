@@ -14,6 +14,9 @@ $( document ).ready(function() {
         loop:true,
         margin:20,
         nav:true,
+        slideTransition:`ease-in-out`,
+        autoplayTimeout:3000,
+        autoplay:true,
         responsive:{
             0:{
                 items:1,
