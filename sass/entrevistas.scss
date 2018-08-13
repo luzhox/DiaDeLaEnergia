@@ -1,0 +1,24 @@
+@import 'generics';
+@import 'header';
+
+.contenedor-expos{
+    iframe{
+        margin-top:10px;
+        height: 200px;
+    }
+    h1{
+
+        font-family: 'Libel'; font-weight: normal;
+           font-size: 3.5rem;
+           text-decoration: underline;
+           text-decoration-color: #9F1318;
+           text-align: center;
+           margin-top:20px;
+           @media only screen and (min-width:700px){
+               font-size: 5.5rem;
+
+            }
+
+    }
+    
+}

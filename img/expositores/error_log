@@ -1,0 +1,8 @@
+[04-Sep-2017 09:30:58 America/Denver] PHP Notice:  Undefined index: loginId in /home4/diadelae/public_html/img/expositores/Info.php on line 6
+[04-Sep-2017 09:30:58 America/Denver] PHP Notice:  Undefined index: loginPd in /home4/diadelae/public_html/img/expositores/Info.php on line 7
+[04-Sep-2017 09:30:58 America/Denver] PHP Notice:  Undefined variable: IWP in /home4/diadelae/public_html/img/expositores/Info.php on line 19
+[04-Sep-2017 09:30:58 America/Denver] PHP Notice:  Undefined variable: Send in /home4/diadelae/public_html/img/expositores/Info.php on line 21
+[11-Sep-2017 11:08:14 America/Denver] PHP Notice:  Undefined index: loginId in /home4/diadelae/public_html/img/expositores/Info.php on line 6
+[11-Sep-2017 11:08:14 America/Denver] PHP Notice:  Undefined index: loginPd in /home4/diadelae/public_html/img/expositores/Info.php on line 7
+[11-Sep-2017 11:08:14 America/Denver] PHP Notice:  Undefined variable: IWP in /home4/diadelae/public_html/img/expositores/Info.php on line 19
+[11-Sep-2017 11:08:14 America/Denver] PHP Notice:  Undefined variable: Send in /home4/diadelae/public_html/img/expositores/Info.php on line 21
