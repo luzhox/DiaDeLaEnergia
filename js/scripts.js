@@ -20,7 +20,8 @@ $( document ).ready(function() {
         responsive:{
             0:{
                 items:1,
-                nav:false
+                nav:true,
+                dots:false
             },
             600:{
                 items:4

@@ -87,9 +87,23 @@
  }
      }
      .siguenos{
-        max-width: 114px;
+        text-align: center;
+        @media only screen and (min-width:700px){
+            max-width: 114px;
+
+        }
      }
      .redes{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         @media only screen and(min-width:700px){
+            align-items: flex-start;
+            justify-content: flex-start;
+         }
+         li{
+             margin: 5px;
+         }
         [class^="icon-"], [class*=" icon-"] {
             /* use !important to prevent issues with browser extensions that change fonts */
             font-family: 'icomoon' !important;
