@@ -1164,7 +1164,7 @@ li {
   padding-bottom: 30px;
 }
 .galeria2016 .imagen-filtrable {
-  width: 28%;
+  width: 100%;
   margin: 0 auto;
   display: inline-block;
   height: 234px;
@@ -1172,6 +1172,17 @@ li {
   margin-bottom: 4px;
   cursor: pointer;
   background-color: #404040;
+  max-width: 300px;
+  margin:0 auto;
+}
+
+@media only screen and (min-width:700px){
+.galeria2016 .imagen-filtrable {
+
+  width: 28%;
+
+}
+
 }
 .galeria2016 .imagen-filtrable .imagen-filtro {
   width: 100%;
