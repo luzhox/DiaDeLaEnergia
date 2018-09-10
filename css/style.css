@@ -11,6 +11,8 @@
 
     background: url(../img/background-2-dd2-mob.jpg)!important;
     background-size:  cover!important;
+            background-position: bottom right!important;
+
   }
 
 @media only screen and (min-width: 700px){

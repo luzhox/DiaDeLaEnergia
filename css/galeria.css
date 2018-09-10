@@ -1183,13 +1183,14 @@ li {
   height: 40px;
   color: white;
   padding: 0px;
+  font-size: 14px;
 }
 
 .filtrar {
   padding: 20px 0;
   width: 100%;
   margin: 0 auto;
-  max-width: 565px;
+  max-width: 600px;
   text-align: center;
 }
 .filtrar li {
